@@ -1,0 +1,62 @@
+{
+  "70071c5c-265f-4545-9f10-3c609f9f5b6e": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://multipure.sharepoint.com/sites/HRBackEnd": {
+        "dataSources": {
+          "New hire": {
+            "tableName": "81c5a5dd-6b85-41ac-a49d-74eb3fe5c141"
+          }
+        }
+      },
+      "https://multipure.sharepoint.com/sites/IT": {
+        "dataSources": {
+          "HRTestList": {
+            "tableName": "0eff97cd-abce-4f3d-8f89-61ffa2247cba"
+          },
+          "HRTestList_1": {
+            "tableName": "0eff97cd-abce-4f3d-8f89-61ffa2247cba"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "New hire",
+      "HRTestList",
+      "HRTestList_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "70071c5c-265f-4545-9f10-3c609f9f5b6e"
+  },
+  "b911db63-fc25-459b-804c-8b66fdccf275": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b911db63-fc25-459b-804c-8b66fdccf275"
+  }
+}
